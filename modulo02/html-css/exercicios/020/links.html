@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+
+        /* 
+        SELETORES PERSONALIZADOS
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+
+        */
+
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+        
+        body {
+            font-family: "Open Sans", sans-serif;
+        }
+
+        a {
+            color: pink;
+            text-decoration: none; /* sem sublinhado */
+            font-weight: bold; /* negrito */
+        }
+
+        a:visited { /* link já visitado */
+            color: purple;
+        }
+
+        a:hover { /* quando passa o cursor por cima*/
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active { /* quando vc clica no link */
+            color: red;
+        }	
+        
+        .especial {
+            background-color: pink;
+
+        }
+        
+        .especial::before {
+            content: ' ⇒ ';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        
+        .especial::after { /* pseudo-elemento -> :: adiciona conteúdo */
+            content: ' ⇐ ';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório Github</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank" class="especial">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do CursoemVideo</a></li>
+        <li><a href="https://www.hostnet.com.br" target="_blank" class="especial">Site da Hostnet</a></li>
+    </ul>
+</body>
+</html>

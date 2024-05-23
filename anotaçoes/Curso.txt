@@ -1,0 +1,25 @@
+cap 1 aula 4
+internet vem da arpanet que surge da guerra fria para proteger centros militares
+www (world wide web) é uma sub-rede da internet que engloba servidores especializados em http
+
+cap 2 aula 1
+UTF-8
+MB(megabytes - armazenamento) =! Mb(megabit - transimissao (internet))
+cliente - (modulaçao e demodulaçao) - modem - (DNS - sistema de nome de dominio) internet - servidor 
+          
+cap 2 aula 2
+dominio - nome que identifica o seu site, dominio é unico
+hospedagem - local onde o site fica armazenado
+url (localizador de recurso unico)
+URL(protocolo - subdominio - dominio - tld ou gtld - calminho)
+
+cap 3 aula 1
+html - hypertext markup language - focada em conteudo(texto, imagens, videos, tabelas)
+css - cascading style sheets - design(cores, sombras, tamanhos, posicionamento)
+js - interaçoes (menus, animaçoes, popups, validaçoes)
+
+cap 3 aula 2
+html,css e js sao tecnologias client-side (front-end)
+designer != front-end - designer é aquele q imagina como será o site
+php,js,c#,python,ruby,java e banco de dados sao tecnologias server-side (back-end)
+front-end + back-end = full stack

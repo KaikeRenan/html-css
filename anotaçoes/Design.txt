@@ -1,0 +1,112 @@
+cap 13 aula 1 
+psicologia das cores
+cada cor tem seu significado e uso melhor adequado
+
+cap 13 aula 2
+representaçao de cores
+os códigos hexadecimais sao uma mistura de vermelho, verde e azul (rgb)
+                                         #  00         00     ff   =  azul
+
+cap 13 aula 3
+coisas simétricas e cores harmonicas deixam as coisas bonitas
+
+harmonia de cores
+
+círculo cromático
+
+cores primárias: amarelo - vermelho - azul
+cores secundárias: laranja - violeta - verde
+cores terciárias(tons pastéis): amarelo-esverdeado . amarelo-alaranjado . vermelho-alaranjado . vermelho-arroxeadoo . azul-arroxeadoo . azul-esverdeado
+
+temperatura de cores
+
+cores frias \ cores quentes
+lado esquedo do círculo cromático \ lado direito do círculo cromático  
+
+paletas: parte de uma cor principal, 3 a 5 cores 
+
+cores complementares (grande contraste)
+só escolher uma cor e traçar uma reta para outra cor no círculo cromático 
+
+cores análogas (pouco contraste mais para um degrade)
+sao as cores vizinhas de uma cor no círculo cromático
+
+cores análogas e complementares (cores com pouco contraste e uma com grande contraste praticamente uma paleta)
+
+cores análoas relacionadas
+escolhendo duas cores pula uma e escolha a proxima (pouco contraste)
+
+cores intercaladas 
+escolha uma e pule uma ou mais cores e escolha a proxima pule uma ou mais cores novamente e esolha outra cor
+
+cores triádicas
+escolha uma e pule tres escolha outra e pule mais tres e escolha outra
+
+cores em quadrado
+escolha uma e pule duas escolha outra e pule mais duas e escolha outra
+
+cores tetrádicas
+escolha uma e ache a cor complementar
+escolha outra e ache outra cor complementar
+
+monocromia
+escolha uma e mude a saturacao e brilho (degrade)
+
+cap 13 aula 4
+paleta de cores ferramentas: adobe color / paletton / coolors
+
+cap 13 aula 5
+conta-gotas - extensao colorzilla
+
+cap 14 aula 1
+tipografia: começou com os monges copistas, johannes gutenberg(pai da imprensa) inventou a prensa de tipos móveis, procurando jeitos para melhorar a legibilidade das letras foi criada a tipografia(estudo dos estilos da escrita)
+
+cada tipo de letra transmite emoçoes também
+
+cap 14 aula 2
+
+anatomia dos tipos
+
+itens métricos: altura-x (minúsculas) - altura das maiúsculas - ascendente(oq vazou para cima) - descendente(oq vazou para baixo) - corpo (todas as alturas)
+
+itens geométricos: serifa(pequeno traço nas letras; cria linhas de leituras), haste(), filete(une hastes ou arcos), arco(), esporao(), vértice(), terminal()
+
+itens humanizados: braço(), perna(), pé(), s - espinha(), barriga(2 arcos juntos), olho(buraco das letras), orelha(), cauda()
+
+cada letra é um glifo
+
+conjunto de glifos é uma fonte
+
+algumas fontes tem vários jeitos de representar um glifo (família tipográfica)
+
+categorias de fontes: serifadas (pq tem serifas), sans-serif(sem serifas), monoespaçadas(todas as letras tem o mesmo espaço lateral), hardwriting(simula a letra de mao), display(nao tem nada das outras)
+
+cap 14 aula 3
+css web safe font combinations: sites que mostram as combinaçoes seguras de fontes
+
+cap 14 aula 4
+medidas absolutas
+cm, mm, in(polegada), px, pt(ponto), pc(paica)
+            
+medidas relativas
+em(ao tamanho atual da fonte), ex(a altura x de uma fonte), rem(a fonconfigurada ao body), vw(largura da tela), vh(altura da tela)
+
+usar px e em
+
+16px(= 1em) é o padrao 
+
+ponto é usado no world
+
+é melhro usar o 'em' pois existem telas diferentes e 'em' é relativo
+
+cap 14 aula 06
+google fonts
+
+cap 14 aula 07
+dafont
+
+cap 14 aula 08
+extensao font ninja
+
+cap 14 aula 09
+fontes dentro de imagens: whatfontis - fontsquirrel - myfonts

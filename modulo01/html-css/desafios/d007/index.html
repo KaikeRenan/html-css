@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio007</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Voce está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiencia</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" sizes="foto-p">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" sizes="foto-m">
+        <img src="imagens/foto-g.png" alt="foto-g">
+    </picture>
+</body>
+</html>
