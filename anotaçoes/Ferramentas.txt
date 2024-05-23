@@ -1,7 +1,7 @@
-CSS3 - DevTools
+DevTools
 
-HTML
+MockFlow (https://mockflow.com/)
 
-MockFlow
+Window Resizer 
 
-Window Resizer
+Qr-code Generator (https://www.qr-code-generator.com/)
