@@ -5,8 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
 
 :root {
-    --fonte-destaque: "Passion One", sans-serif;
-    --fonte-padrao: "Sriracha", cursive;
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;   
+    --fonte2: "Passion One", sans-serif;
+    --fonte3: "Sriracha", cursive;
 }
 
 * {
@@ -16,6 +17,8 @@
 
 html,body { /* configuraçoes de html e do body */
     min-height: 100vh;
+    font-family: var(--fonte1);
+    font-size: 1em;
 }
 
 header {
@@ -26,8 +29,8 @@ header {
 header > h1 {
     /* text-transform: uppercase; para todas as letras ficarem maisculas */
     color: white;
-    font-family: var(--fonte-destaque);
-    font-size: 4em;
+    font-family: var(--fonte2);
+    font-size: 10vw; /* 10% da largura da tela*/
     font-variant: small-caps; /* primeira letra da palavra fica maisculas e o resto minusculas e menores */
     padding-top: 50px;
 }
@@ -58,9 +61,9 @@ section {
     padding-top: 10vh;
     padding-bottom: 10vh;
     padding-left: 30px;
-    font-size: 1.5em;
+    font-size: 3.5vw;
     line-height: 2em;
-    font-family: var(--fonte-padrao);
+    font-family: var(--fonte3);
 }
 
 section.fundo_branco{
@@ -73,7 +76,7 @@ section.fundo_imagem {
 }
 
 section.fundo_imagem > p {
-    width: 300px;
+    display: inline-block; /* se adapta ao tamanho do contéudo */
     background-color: rgba(0, 0, 0, 0.26);
 }
 
