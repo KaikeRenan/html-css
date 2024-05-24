@@ -10,27 +10,32 @@
 }
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+html,body { /* configuraçoes de html e do body */
+    min-height: 100vh;
 }
 
 header {
     background-color: black;
     text-align: center;
-    padding: 50px;
 }
 
 header > h1 {
+    /* text-transform: uppercase; para todas as letras ficarem maisculas */
     color: white;
     font-family: var(--fonte-destaque);
     font-size: 4em;
+    font-variant: small-caps; /* primeira letra da palavra fica maisculas e o resto minusculas e menores */
+    padding-top: 50px;
 }
 
-p#header {
+header > p {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-    font-weight: 100;
-    padding: 20px;
+    padding-bottom: 50px;
 }
 
 a {
@@ -49,22 +54,27 @@ a:visited {
     color: white;
 }
 
-main p.fundo_branco{
-    background-color: white;
-    font-family: var(--fonte-padrao);
-    text-align: left;
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     font-size: 1.5em;
-    line-height: 2.5em;
-    padding: 50px 600px 100px 30px;
+    line-height: 2em;
+    font-family: var(--fonte-padrao);
 }
 
-main p.sem_fundo {
+section.fundo_branco{
+    background-color: white;
     color: black;
-    font-family: var(--fonte-padrao);
-    text-align: left;
-    font-size: 1.5em;
-    line-height: 2.5em;
-    padding: 50px 600px 100px 30px; 
+}
+
+section.fundo_imagem {
+    color: white;
+}
+
+section.fundo_imagem > p {
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.26);
 }
 
 section#flor {
@@ -84,10 +94,11 @@ section#livro {
 }
 
 
-footer > p {
+footer {
     background-color: black;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-style: italic;
+    padding: 10px;
 }
