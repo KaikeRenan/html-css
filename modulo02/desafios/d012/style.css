@@ -66,6 +66,10 @@ section {
     font-family: var(--fonte3);
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.fundo_branco{
     background-color: white;
     color: black;
@@ -73,16 +77,19 @@ section.fundo_branco{
 
 section.fundo_imagem {
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
 }
 
 section.fundo_imagem > p {
     display: inline-block; /* se adapta ao tamanho do contéudo */
-    background-color: rgba(0, 0, 0, 0.26);
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
 }
 
 section#flor {
     background-image: url(imagens/background001.jpg);
-    background-position: center right;
+    background-position: right center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
