@@ -7,6 +7,7 @@
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
+            background-color: lightgray;
         }
 
         caption {
@@ -18,29 +19,26 @@
             border-collapse: collapse;
         }
 
-        th, td {
-            border: 1px solid black;
+        caption {
+            font-size: 1.2em;
+            font-weight: bolder;
+            padding: 20px;
         }
 
-        th {
-            padding: 6px;
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
         }
 
         tr:nth-child(2n) {
             background-color: lightgray;
         }
-
-        div.container { /* resposividade */
-            overflow-x: auto;
-        }
     </style>
 </head>
 <body>
-    <h1>Tabelas em telas pequenas</h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum quis laudantium tenetur esse, consequatur commodi odit officia excepturi dolor fuga totam repudiandae voluptas illum repellat rerum quibusdam ducimus error?</p>
     <div class="container">
-        <table> 
-            <caption>Venda de produtos por mes</caption>
+        <table>
+            <caption>Vendas de produtos por mes</caption> 
             <thead>
                 <tr>
                     <th>Produto</th>
