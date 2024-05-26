@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative; /* cabeçalho fixo */ 
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        
+        thead, tfoot {
+            background-color: gray;
+            color: white;
+        }
+
+        thead > tr > th { /* cabeçalho fixo */ 
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        tbody > tr:nth-child(2n) { /* de 2 em 2 ele coloca o background color - odd(impar/2n-1) even(par/2n) */
+            background-color: lightgray;
+        }
+        
+        td.num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!-- 
+        Anatomia de tabelas grandes
+        table
+            caption (legenda)
+            thead
+                tr (linha), td (dado), th (titulo)
+            tbody
+                tr, td, th
+            tfoot
+                tr, td, th 
+    -->
+    <table>
+        <caption>Populaçao das Unidades Federativas do Brasil</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th> <!-- scope="col"(titulo da coluna) -->
+                <th scope="col" width="90px">Populaçao</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sao Paulo</td>
+                <td class="num">44 411 238</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">20 538 718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="num">16 054 524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="num">14 141 626	</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="num">11 444 380</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="num">10 882 965</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="num">9 058 931</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="num">8 794 957</td>
+            </tr>
+            <tr>
+                <td>Pará</td>
+                <td class="num">8 121 025</td>
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="num">7 610 361</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr>
+                <td>...</td>
+                <td class="num">...</td>
+            </tr>
+            <tr></tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th> <!-- scope="row"(titulo da coluna) -->
+                <td class="num"><strong>203 062 512</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
