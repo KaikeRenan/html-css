@@ -8,7 +8,7 @@
 <body>
     <h1>Meu primeiro formulário</h1>
     <!-- formulários sao lugares onde o cliente pode colocar dados -->
-    <form action="cadastro.php" autocomplete="off">
+    <form action="cadastro.php" method="POST" autocomplete="off">
         <!-- action: onde o formulario vai ser enviado -->
         <p><label for="inome">Nome:</label> <!-- label - id -->
             <input type="text" name="nome" id="inome"></p>
@@ -20,5 +20,10 @@
         <!-- submit: botão de envio -->
         <!-- value: o que vai aparecer no botão -->
     </form>
+    <!-- 
+        existem dois metodos para o envio de formularios
+        padrao: GET - utilizar quando os dados sao nao sensiveis; quando voce quer compartilhar a URL; tem um limite de 3000 bytes (3000 letras)
+        POST - esconde os dados na URL, mas utilizando devTools da pra ver os dados; utilizar quando os dados sao sensiveis(HTTPS(aprender dps)); dados forem maiores que 3000 bytes; envio de arquivos
+    -->
 </body>
 </html>
