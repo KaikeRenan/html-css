@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <!-- formulários sao lugares onde o cliente pode colocar dados -->
+    <form action="cadastro.php" autocomplete="off">
+        <!-- action: onde o formulario vai ser enviado -->
+        <p><label for="inome">Nome:</label> <!-- label - id -->
+            <input type="text" name="nome" id="inome"></p>
+        <!-- type: o tipo de dado que vai ser enviado -->
+        <!-- name - php e html ; id - js -->
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="enviar"></p>
+        <!-- submit: botão de envio -->
+        <!-- value: o que vai aparecer no botão -->
+    </form>
+</body>
+</html>
