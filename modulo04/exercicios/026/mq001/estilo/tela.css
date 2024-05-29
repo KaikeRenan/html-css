@@ -1,0 +1,40 @@
+v
+
+/* estilo para telas */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header {
+    background-color: lightgray;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu li {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+menu ul {
+    background-color: gray;
+    list-style-type: none;
+}
+
+article {
+    padding-top: 20px;
+    width: 600px;
+    display: block; /* margin auto funciona com display block */
+    margin: auto;
+}
