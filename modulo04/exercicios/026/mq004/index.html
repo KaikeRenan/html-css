@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all"> <!-- Mobile First -->
+    
+    <link rel="stylesheet" href="estilos/tablet.css" media="screen and (min-width: 768px) and (max-width: 992px)">
+    <link rel="stylesheet" href="estilos/desktop.css" media="screen and (min-width: 992px) and (max-width: 1200px)">
+    <link rel="stylesheet" href="estilos/grandes-telas.css" media="screen and (min-width: 1200px)">
+    
+    <link rel="stylesheet" href="estilos/print.css" media="print"> 
+    <!-- typical device beakpoints
+    Pequenas telas até 600px
+    Celular 600px até 768px
+    Tablet 768px até 992px
+    Desktop 992px até 1200px
+    Grandes telas acima de 1200px -->
+</head>
+<body>
+    <!-- Mobile First -->
+    <main>
+        <h1>Testando Media Queries</h1>
+        <img id="phone" src="imagens/icon-phone.png" alt="Acessando via smartphone">
+        <img id="tablet" src="imagens/icon-tablet.png" alt="Acessando via tablet">
+        <img id="print" src="imagens/icon-print.png" alt="Acessando para impressao">
+        <img id="pc" src="imagens/icon-pc.png" alt="Acessando via desktop">
+        <img id="tv" src="imagens/icon-tv.png" alt="Acessando via TV">
+    </main>
+</body>
+</html>
