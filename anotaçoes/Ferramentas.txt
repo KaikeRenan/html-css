@@ -16,3 +16,5 @@ faz backup e armazena na nuvem e permite trabalhar em grupo
 
 GitHub Pages
 é limitado para html5, css3 e js
+
+Google Icons
